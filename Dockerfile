@@ -1,7 +1,7 @@
 # base image
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
 WORKDIR /app
-EXPOSE 80
+EXPOSE 8080
 
 # build image
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
