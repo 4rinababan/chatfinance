@@ -60,6 +60,6 @@ app.Map("/error", (HttpContext http) =>
 });
 
 // ✅ Tambahkan baris ini
-app.Urls.Add("http://*:80");
+app.Urls.Add("http://*:8080");
 
 app.Run();
